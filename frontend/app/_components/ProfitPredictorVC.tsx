@@ -234,7 +234,7 @@ export default function ProfitPredictorVC() {
                     <Button
                       type="button"
                       variant="outline"
-                      className={`text-xs ${
+                      className={`text-xs focus:bg-primary focus:text-primary-foreground md:focus:text-white md:focus:bg-none ${
                         activeSample === null
                           ? "bg-primary text-primary-foreground"
                           : ""
@@ -257,7 +257,7 @@ export default function ProfitPredictorVC() {
                         key={sample.id}
                         type="button"
                         variant="outline"
-                        className={`text-xs ${
+                        className={`text-xs focus:bg-primary focus:text-primary-foreground md:focus:text-white md:focus:bg-none ${
                           activeSample === sample.id
                             ? "bg-primary text-primary-foreground"
                             : ""
