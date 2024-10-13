@@ -7,7 +7,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "VC Profit Predictor",
   description:
-    "This application is designed to help venture capitalists gain insights into potential startup profitability based on various spending categories.",
+    "This web application is designed to help venture capitalists gain insights into potential startup profitability based on various spending categories.",
 };
 
 export default function RootLayout({
