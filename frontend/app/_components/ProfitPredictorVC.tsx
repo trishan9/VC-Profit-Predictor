@@ -66,7 +66,7 @@ export default function ProfitPredictorVC() {
 
     try {
       const response = await fetch(
-        "https://api-vc-profit-predictor.onrender.com/api/predict",
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/predict`,
         {
           method: "POST",
           body: formData,

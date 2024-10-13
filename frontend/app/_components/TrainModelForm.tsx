@@ -41,7 +41,7 @@ export default function TrainModelForm({
 
     try {
       const response = await fetch(
-        "https://api-vc-profit-predictor.onrender.com/api/train",
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/train`,
         {
           method: "POST",
           body: formData,
